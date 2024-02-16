@@ -12,7 +12,6 @@ namespace Tutorial_settings
     public class Plugin : Plugin<Config>
     {
         public override string Author => "Artyom <3";
-        public override string Editor => "Fuzen"
         public override string Name => "Tutorial Settings";
 
         public override Version Version => new Version(1, 0, 0);
